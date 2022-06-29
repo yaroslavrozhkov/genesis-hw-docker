@@ -3,7 +3,7 @@ version: '3.8'
 services:
   app:
     restart: always
-    image: api:check
+    image: rozhoktest/hw-docker:latest
     ports:
     - '8081:8081'
     restart: always
